@@ -1,4 +1,6 @@
 import express, { Express, Request, Response } from "express";
+import dotenv from "dotenv";
+dotenv.config();
 // import setupSwagger endpoint
 import setupSwagger from "./swagger";
 
